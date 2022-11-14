@@ -184,7 +184,10 @@ img{
 	font-weight: 500;
 	font-size: 14px;
 }
-
+.contact-icon {
+	margin-right: 10px;
+	fill: currentColor;
+}
 .header-contact-link:hover,
 .header-contact-link:focus {
 	color: var(--accent-color);
@@ -343,6 +346,8 @@ img{
 	padding-top: 0;
 	padding-bottom: 30px;
 	width: 270px;
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+	border-radius: 0px 0px 4px 4px;
 }
 
 .team-worker {
@@ -383,8 +388,8 @@ img{
 	margin-top: 9px;
 }
 
-.contact-item .link:hover,
-.contact-item .link:focus {
+.contact-item .footer-contact-link:hover,
+.contact-item .footer-contact-link:focus {
 	color: var(--accent-color);
 }
 
@@ -432,6 +437,8 @@ img{
 .portfolio-button:focus {
 	background-color: var(--accent-color);
 	color: var(--white-text-color);
+	box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+	border-radius: 4px;
 }
 .portfolio-button-list .main {
 padding-left: 25px;
@@ -445,9 +452,7 @@ padding-right: 25px;
 
 /* Картки */
 
-.portfolio-link {
-	text-decoration: none;
-}
+
 
 .list-title {
 	font-weight: 700;
@@ -483,6 +488,13 @@ padding-right: 25px;
 
 .portfolio-link {
 	text-decoration: none;
+}
+
+.portfolio-link:hover,
+.portfolio-link:focus {
+box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
+0px 4px 4px rgba(0, 0, 0, 0.06),
+1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .portfolio-border {
